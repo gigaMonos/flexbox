@@ -1,0 +1,26 @@
+display: flex; свойстов по умолчанию, блоки не ломаются
+
+		<ul class="block_list">
+					<li>
+						<div class=" block_info block_info_y">flex контейнер</div>
+					</li>
+					<li>
+						<div class=" block_info block_info_p">Flex элимент</div>
+					</li>
+					<li>
+						<div class=" block_info block_info_g"> Содержимое flex элимент (контент)</div>
+					</li>
+				</ul>
+
+display: inline-flex; блоки ыфравниваютс\ по ширене конетента, строчный флекс контейнер
+
+justify-content: выравнивает блоки соответсвующе параметрам flex-start; 
+			flex-end;
+			center;
+justify-content: space-beetween; рамещвет с одинакеовыми пространством, это не отступы и при сжатии экрана простанство исзезает 
+justify-content: space-around; простансвоом добавляется слева и справа
+align-items: - выравнивает блоки по вертикали, в высоту 
+strech;размещение по умолчанию , все блок и полстраивабтся под самый высокий блок
+flex-start; прижимает блоки к материнскому блоки
+flex-end ; блоки прилипнут к низу флекс контейнера
+align-items: center; выравнивает по горозонтальному цеетру 
